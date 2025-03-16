@@ -1,65 +1,67 @@
-# Insider Week 3 
+# Insider Week - Ödevler ve Projeler
 
-Bu repo, Insider Week 4 kapsamında geliştirilmiş projeleri içermektedir. Projeler, farklı teknikler ve kütüphaneler kullanılarak hazırlanmış olup her biri için detaylı açıklamalar aşağıda verilmiştir.
+Bu repo, **Insider Week** kapsamında geliştirilmiş çeşitli projeleri içermektedir. Projeler, farklı teknikler ve kütüphaneler kullanılarak hazırlanmış olup her biri için detaylı açıklamalar aşağıda verilmiştir.
 
-📌 Projeler
+## 📌 Projeler
 
-🌟 DarkUser Grid
+### 🌟 DarkUser Grid
+**Açıklama:**
+DarkUser Grid projesi, modern ve şık bir grid tabanlı kullanıcı arayüzü sunar. Kullanıcı bilgileri grid formatında gösterilir ve dinamik olarak güncellenebilir.
 
-🔹 Açıklama:DarkUser Grid projesi, kullanıcı listelerini şık bir grid yapısıyla görüntülemeyi sağlar. Kullanıcıların verileri JSON formatında alınarak, dinamik bir şekilde grid içerisinde gösterilmektedir. Arayüz modern tasarım prensipleri göz önünde bulundurularak hazırlanmıştır.
+🔗 **YouTube Sunumu:** [DarkUser Grid](https://www.youtube.com/watch?v=Z3U71ztarjU&ab_channel=SametRozgar)
 
-🔗 YouTube Sunumu: DarkUser Grid🔗 GitHub Repo: DarkUser Grid
+🔗 **GitHub Repo:** [DarkUser Grid](https://github.com/SametRozgar/DarkUserGrid)
 
-🔹 Kullanılan Teknolojiler:
+🔹 **Kullanılan Teknolojiler:**
+- JQuery (DOM manipülasyonu ve event handling)
+- CSS Grid (Duyarlı tasarım için)
+- Dinamik Veri Yönetimi
 
-HTML, CSS (Grid ve Responsive Tasarım)
+---
 
-JavaScript (Dinamik içerik yönetimi)
+### ⚡ Debugger Insider
+**Açıklama:**
+Debugger Insider projesi, hata ayıklama süreçlerini kolaylaştırmak amacıyla geliştirilmiş bir araçtır. Kullanıcılar, hataları analiz edebilir ve optimize edilmiş kod yazım teknikleriyle daha verimli çalışabilirler.
 
-JSON (Kullanıcı verileri)
+🔗 **YouTube Sunumu:** [Debugger Insider](https://www.youtube.com/watch?v=orh5H3CVNfQ&ab_channel=SametRozgar)
 
-⚡ Debugger Insider
+🔗 **GitHub Repo:** [Debugger Insider](https://github.com/SametRozgar/Debugger-Insider)
 
-🔹 Açıklama:Debugger Insider projesi, JavaScript ve tarayıcı konsolu kullanılarak hata ayıklama süreçlerini anlamak ve geliştirmek için tasarlanmıştır. Kod hatalarının tespiti ve düzeltilmesi üzerine pratikler içermektedir.
+🔹 **Kullanılan Teknolojiler:**
+- JavaScript Debugging (Console, Breakpoints, Error Handling)
+- JQuery (UI geliştirmeleri)
+- Dinamik hata yönetimi
 
-🔗 YouTube Sunumu: Debugger Insider🔗 GitHub Repo: Debugger Insider
+---
 
-🔹 Kullanılan Teknolojiler:
+### ✅ User List Observer
+**Açıklama:**
+Bu proje, kullanıcı listesini gözlemleyerek değişiklikleri otomatik olarak günceller. Listeye yeni kullanıcı ekleme, düzenleme ve silme gibi işlemler dinamik olarak yapılabilir.
 
-JavaScript (Hata ayıklama ve log yönetimi)
+🔗 **YouTube Sunumu:** [User List Observer](https://www.youtube.com/watch?v=l78HrPpanwQ&t=7s&ab_channel=SametRozgar)
 
-Chrome Developer Tools
+🔗 **GitHub Repo:** [User List Observer](https://github.com/SametRozgar/User-List-Observer)
 
-Debugging Teknikleri
+🔹 **Kullanılan Teknolojiler:**
+- JQuery (Dinamik veri manipülasyonu)
+- Observer Pattern (Kullanıcı listesinin değişimini izlemek için)
+- AJAX (Gerçek zamanlı veri güncellemeleri)
 
-✅ User List Observer
+---
 
-🔹 Açıklama:User List Observer projesi, kullanıcı listesindeki değişiklikleri tespit eden ve bu değişikliklere dinamik olarak tepki veren bir yapıya sahiptir. Kullanıcı ekleme, çıkarma gibi işlemler gözlemlenerek anlık güncellemeler sağlanmaktadır.
-
-🔗 YouTube Sunumu: User List Observer🔗 GitHub Repo: User List Observer
-
-🔹 Kullanılan Teknolojiler:
-
-JavaScript (Event Listeners ve DOM Manipülasyonu)
-
-Observer Pattern (Değişikliklerin izlenmesi)
-
-LocalStorage (Veri kaydı ve yönetimi)
-
-📌 Kurulum ve Kullanım
-
+## 🚀 Kurulum ve Kullanım
 Projeleri çalıştırmak için aşağıdaki adımları izleyin:
 
-1️⃣ Ana repoyu klonlayın:
+1. **Ana repoyu klonlayın:**
+   ```bash
+   git clone https://github.com/SametRozgar/insider-week-projects.git
+   cd insider-week-projects
+   ```
+2. **Çalıştırmak istediğiniz projeye girin ve bir canlı sunucu açın:**
+   ```bash
+   cd DarkUserGrid  # Örneğin bu projeyi çalıştırmak için
+   live-server  # veya VSCode ile açıp Go Live butonuna basabilirsiniz.
+   ```
+3. **Tarayıcıda açarak projeleri test edin!**
 
- git clone https://github.com/SametRozgar/insider-week-4.git
- cd insider-week-4
-
-2️⃣ İlgili projeye girin ve çalıştırın:
-
- cd DarkUserGrid  # Örneğin bu projeyi çalıştırmak için
- live-server  # veya VSCode ile açıp "Go Live" butonuna basabilirsiniz.
-
-3️⃣ Tarayıcıda açarak projeleri test edin!
-
-🚀 Bu projeler Insider Week 4 kapsamında geliştirilmiş olup öğrenme ve geliştirme sürecine katkı sağlaması hedeflenmiştir. Faydalı olması dileğiyle! 😊
+---
