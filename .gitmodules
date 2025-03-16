@@ -1,0 +1,9 @@
+[submodule "Debugger-Insider"]
+	path = Debugger-Insider
+	url = https://github.com/SametRozgar/Debugger-Insider.git
+[submodule "User-List-Observer"]
+	path = User-List-Observer
+	url = https://github.com/SametRozgar/User-List-Observer.git
+[submodule "DarkUserGrid"]
+	path = DarkUserGrid
+	url = https://github.com/SametRozgar/DarkUserGrid.git
